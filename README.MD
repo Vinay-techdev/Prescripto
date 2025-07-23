@@ -67,54 +67,71 @@ A full-stack web application for booking and managing doctor appointments, built
 - MongoDB (local or Atlas)
 - npm or yarn
 
-### Setup Instructions
 
-1. **Clone the repository**
+### 1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/doctor-appointment-app.git
 cd doctor-appointment-app
+```
 
-2. **Setup backend**
-``bash
+---
+
+### 2. **Setup Backend**
+```bash
 cd backend
 npm install
+```
 
-** => Create a .env file inside /backend and add:**
-```bash
+---
+
+### ➡️ Create a `.env` file inside `/backend` and add:
+```env
 PORT=4000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
-** => start backend server**
+---
+
+### ➡️ Start backend server
 ```bash
 npm start
+```
 
-3. **Setup Frontend **
+---
+
+### 3. **Setup Frontend**
 ```bash
 cd ../frontend
 npm install
+```
 
-** => Create a .env file inside /frontend and add:**
+---
+
+### ➡️ Create a `.env` file inside `/frontend` and add:
+```env
 VITE_BACKEND_URL=http://localhost:4000
+```
 
-** => Start the frontend:**
+---
+
+### ➡️ Start frontend
 ```bash
 npm run dev
+```
 
-4.**Setup Admin Panel**
+---
+
+### 4. **(Optional) Setup Admin Panel**
 ```bash
 cd ../admin
 npm install
 npm run dev
+```
+
 
 ---
 ## 📢 Connect With Me
 Let’s connect and collaborate!
 📧 Email: vinayp.techdev@email.com
 🔗 [LinkedIn](https://www.linkedin.com/in/vinay-p-ba030a322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-
-
-
-
-
-
