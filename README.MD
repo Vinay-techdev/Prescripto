@@ -75,33 +75,39 @@ git clone https://github.com/yourusername/doctor-appointment-app.git
 cd doctor-appointment-app
 
 2. **Setup backend**
+``bash
 cd backend
 npm install
 
-#Create a .env file inside /backend and add:*
+** => Create a .env file inside /backend and add:**
+```bash
 PORT=4000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
-#start backend server
+** => start backend server**
+```bash
 npm start
 
 3. **Setup Frontend **
+```bash
 cd ../frontend
 npm install
 
-#Create a .env file inside /frontend and add:
+** => Create a .env file inside /frontend and add:**
 VITE_BACKEND_URL=http://localhost:4000
 
-#Start the frontend:
+** => Start the frontend:**
+```bash
 npm run dev
 
 4.**Setup Admin Panel**
+```bash
 cd ../admin
 npm install
 npm run dev
 
-
+---
 ## 📢 Connect With Me
 Let’s connect and collaborate!
 📧 Email: vinayp.techdev@email.com
